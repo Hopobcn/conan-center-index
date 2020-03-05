@@ -1,0 +1,8 @@
+sources:
+  "0.2.0":
+    url: "https://github.com/Dav1dde/glad/archive/glad2.zip"
+    sha256: "00478de64c689ada19f45d60be863e750cb77ad09eff5dbc0f042cf57d287d63"
+patches:
+  "0.2.0":
+    - patch_file: "patches/0001-CMake-handle-all-specs.patch"
+      base_path: "source_subfolder"

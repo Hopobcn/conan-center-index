@@ -1,0 +1,10 @@
+sources:
+  "20200121":
+    url: "https://github.com/pytorch/cpuinfo/archive/0e6bde92b343c5fbcfe34ecd41abf9515d54b4a7.zip"
+    sha256: "22bdeb61f32e55d7b2a91efc79ebe41de0360e0ff2d91b8f25e1c878c343f718"
+patches:
+  "20200121":
+    - patch_file: "patches/clog-20200121-handle-BUILD_SHARED_LIBS.patch"
+      base_path: "source_subfolder"
+    - patch_file: "patches/clog-20200121-modify-symbol-visibility.patch"
+      base_path: "source_subfolder"

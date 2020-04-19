@@ -1,0 +1,11 @@
+--- CMakeLists.txt.old	2020-04-19 23:39:56.413352521 +0200
++++ CMakeLists.txt	2020-04-19 23:36:41.350745064 +0200
+@@ -51,7 +51,7 @@
+ ENDIF()
+ 
+ # ---[ clog library
+-ADD_LIBRARY(clog STATIC src/clog.c)
++ADD_LIBRARY(clog src/clog.c)
+ SET_TARGET_PROPERTIES(clog PROPERTIES
+   C_STANDARD 99
+   C_EXTENSIONS NO)

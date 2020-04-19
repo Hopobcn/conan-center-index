@@ -1,0 +1,14 @@
+--- include/clog.h.old	2020-04-20 00:10:53.427718481 +0200
++++ include/clog.h	2020-04-20 00:11:28.506820424 +0200
+@@ -13,9 +13,9 @@
+ 
+ #ifndef CLOG_VISIBILITY
+ 	#if defined(__ELF__)
+-		#define CLOG_VISIBILITY __attribute__((__visibility__("internal")))
++		#define CLOG_VISIBILITY __attribute__((__visibility__("default")))
+ 	#elif defined(__MACH__)
+-		#define CLOG_VISIBILITY __attribute__((__visibility__("hidden")))
++		#define CLOG_VISIBILITY __attribute__((__visibility__("default")))
+ 	#else
+ 		#define CLOG_VISIBILITY
+ 	#endif

@@ -1,0 +1,4 @@
+sources:
+  "master":
+    url: "https://github.com/pytorch/cpuinfo/archive/master.zip"
+    sha256: 1f0b90b3ec5e05cf39716b065e048995e0599011e14b28e9146dbcad94eafc9a

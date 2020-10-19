@@ -1,0 +1,4 @@
+sources:
+  "2.35.1":
+    url: "https://ftp.gnu.org/gnu/binutils/binutils-2.35.1.tar.bz2"
+    sha256: "320e7a1d0f46fcd9f413f1046e216cbe23bb2bce6deb6c6a63304425e48b1942"
